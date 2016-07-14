@@ -11,7 +11,7 @@
 			<bean class="uk.ac.ox.it.vle.AdminSiteReportWriterSakai">
 				<property name="contentHostingService" ref="org.sakaiproject.content.api.ContentHostingService"/>
 				<property name="sessionManager" ref="org.sakaiproject.tool.api.SessionManager"/>
-				<property name="outputFolder" value="/private/coordinators/"/>
+				<property name="outputFolder" value="/private/coordinatorsAlt/"/>
 			</bean>
 		</property>
 		<property name="userRole" value="coordinator"/>
